@@ -2,76 +2,76 @@
     "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"
 },
 {
-    "State":"AK","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"
+    "State":"AK","Coal": "0.187","Natural Gas":"0.456","Petroleum":"0.087","Renewable":"0.269","Nuclear":"0"
 },
 {
-    "State":"AZ","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"
+    "State":"AZ","Coal": "0.305","Natural Gas":"0.278","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"
 }, 
 {
-    "State":"AR","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"AR","Coal": "0.483","Natural Gas":"0.251","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"CA","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"CA","Coal": "0","Natural Gas":"0.394","Petroleum":"0","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"CO","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"CO","Coal": "0.523","Natural Gas":"0.258","Petroleum":"0","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"CT","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"CT","Coal": "0.012","Natural Gas":"0.408","Petroleum":"0.009","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"DE","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"DE","Coal": "0.096","Natural Gas":"0.839","Petroleum":"0.044","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"FL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"FL","Coal": "0.156","Natural Gas":"0.156","Petroleum":"0.011","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"GA","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"GA","Coal": "0.291","Natural Gas":"0.337","Petroleum":"0.002","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"HI","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"HI","Coal": "0.16","Natural Gas":"0","Petroleum":"0.726","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"ID","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"ID","Coal": "0","Natural Gas":"0.154","Petroleum":"0","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"IL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"IL","Coal": "0.326","Natural Gas":"0.075","Petroleum":"0","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"IN","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"IN","Coal": "0.757","Natural Gas":"0.188","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"IA","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"IA","Coal": "0.476","Natural Gas":"0.087","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"KS","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"KS","Coal": "0.43","Natural Gas":"0.056","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"KY","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"KY","Coal": "0.798","Natural Gas":"0.148","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"LA","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"LA","Coal": "0.197","Natural Gas":"0.454","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"ME","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"ME","Coal": "0.017","Natural Gas":"0.151","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"MD","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"MD","Coal": "0.27","Natural Gas":"0.244","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"MA","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"MA","Coal": "0","Natural Gas":"0.6","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"MI","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"MI","Coal": "0.397","Natural Gas":"0.233","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"MN","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"MN","Coal": "0.406","Natural Gas":"0.113","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"MS","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"MS","Coal": "0.117","Natural Gas":"0.736","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 {
-    "State":"MO","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+    "State":"MO","Coal": "0.753","Natural Gas":"0.075","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
 },
 
 
