@@ -31,5 +31,5 @@ var obj = JSON.parse(computerdata);
             "active":"8.8",
             "Power supply efficiency":"0.877"
         }
-    ]
+    }
 }
