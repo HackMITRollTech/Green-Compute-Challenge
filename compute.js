@@ -8,23 +8,39 @@
 		
 
 		// get values from the JSON
-		computerVals = obj["computers"][name];
-		offWeight = Number(computerVals["off"]);
-		sleepWeight = Number(computerVals["sleep"]);
-		idleWeight = Number(computerVals["idle"]);
-		activeWeight = Number(computerVals["active"]);
-		supplyEfficiencyWeight = Number(computerVals["Power supply efficiency"]);
+		var computerVals = computerData["computers"][name];
+		var offWeight = Number(computerVals["off"]);
+		var sleepWeight = Number(computerVals["sleep"]);
+		var idleWeight = Number(computerVals["idle"]);
+		var activeWeight = Number(computerVals["active"]);
+		var supplyEfficiencyWeight = Number(computerVals["Power supply efficiency"]);
+		
 		// multiply the percentages by values
+		var computerPower = off*offWeight + sleep*sleepWeight + idle*idleWeight + active*activeWeight;
 		
-		computerPower = off*offWeight + sleep*sleepWeight + idle*idleWeight + active*activeWeight;
 		// devide the efficeincy < return actual value
+		var kwattH = computerPower / supplyEfficiencyWeight; //kWh
+		
+		// multiply by state nonrenewable <return images
+		var stateVal = stateData["states"][state];
+		var coalSt = Number(stateVal["Coal"]);
+		var ngasSt = Number(stateVal["Natural Gas"]);
+		var renSt = Number(stateVal["Renewable"]);
+		var nukeSt = Number(stateVal["Nuclear"]);
 
-		wattsUsed = computerPower / supplyEfficiencyWeight;
+		var energyVal = stateData["energy"];
+		var coalVal = Number(energyVal["Coal"]);
+		var ngasVal = Number(energyVal["Natural Gas"]);
+		var renVal = Number(energyVal["Renewable"]);
+		var nukeVal = Number(energyVal["Nuclear"]);
+
+		var stateCarbonLbsPerKwH = coalSt*coalVal + ngasSt*ngasVal + renSt*renVal + nukeSt*nukeVal;
+		
+		var carbonLbs = stateCarbonLbsPerKwH * kwattH;
+		return carbonLbs;
 		
 
-		// multiply by state nonrenewable <return images
-
-		console.log('sent from: ' + $(form).serialize());
-		return true;
+		// console.log('sent from: ' + $(form).serialize());
+		// return true;
 	}
 </script>
