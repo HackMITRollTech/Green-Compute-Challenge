@@ -11,7 +11,7 @@
     "off": "0.38",
     "sleep":"1.55",
     "idle":"5.79",
-    "active":"18.60"
+    "active":"18.60",
     "Power supply efficiency":"0.878"
 },
 {
@@ -19,7 +19,7 @@
     "off": "0.23",
     "sleep":"1.16",
     "idle":"5.05",
-    "active":"15.70"
+    "active":"15.70",
     "Power supply efficiency":"0.87"
 }, 
 {
@@ -27,6 +27,6 @@
     "off": "0.17",
     "sleep":"0.73",
     "idle":"4.0",
-    "active":"8.8"
+    "active":"8.8",
     "Power supply efficiency":"0.877"
 }
