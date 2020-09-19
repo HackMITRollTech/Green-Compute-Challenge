@@ -75,5 +75,11 @@
         "State":"MO","Coal": "0.753","Natural Gas":"0.075","Petroleum":"0.001","Renewable":"0.041","Nuclear":"0.322"   
     },
 }
+ 
+ 
+ 
+ {"equiv": {
+     "Coal": "2.21","Natural Gas":"0.92","Petroleum":"2.11","Renewable":"0.011","Nuclear":"0.009" 
 }
-
+}
+}
