@@ -1,32 +1,61 @@
 {
-    "Name":"Surface Book",
-    "off": "0.49",
-    "sleep":"2.03",
-    "idle":"7.10",
-    "active":"23.06",
-    "Power supply efficiency":"0.856"
+    "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"
 },
 {
-    "Name": "Surface Go", 
-    "off": "0.38",
-    "sleep":"1.55",
-    "idle":"5.79",
-    "active":"18.60",
-    "Power supply efficiency":"0.878"
+    "State":"AK","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"
 },
 {
-    "Name": "Surface Laptop", 
-    "off": "0.23",
-    "sleep":"1.16",
-    "idle":"5.05",
-    "active":"15.70",
-    "Power supply efficiency":"0.87"
+    "State":"AZ","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"
 }, 
 {
-    "Name": "Macbook air", 
-    "off": "0.17",
-    "sleep":"0.73",
-    "idle":"4.0",
-    "active":"8.8",
-    "Power supply efficiency":"0.877"
-}
+    "State":"AR","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"CA","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"CO","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"CT","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"DE","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"FL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+{
+    "State":"AL","Coal": "0.247","Natural Gas":"0.346","Petroleum":"0.001","Renewable":"0.084","Nuclear":"0.322"   
+},
+
