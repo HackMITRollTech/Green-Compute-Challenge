@@ -12,5 +12,6 @@
 }, 
 {
     "Name": "Chromebook", 
-    "Value": "2.00"
+    "Value": "2.00",
+    "Value2": "3.00"
 }
