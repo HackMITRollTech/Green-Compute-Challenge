@@ -1,0 +1,16 @@
+{
+    "Name":"Dell",
+    "Value": "2.13"
+},
+{
+    "Name": "Mac", 
+    "Value": "2.00"
+},
+{
+    "Name": "HP", 
+    "Value": "2.00"
+}, 
+{
+    "Name": "Chromebook", 
+    "Value": "2.00"
+}
