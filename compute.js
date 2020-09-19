@@ -28,7 +28,7 @@
 		var renSt = Number(stateVal["Renewable"]);
 		var nukeSt = Number(stateVal["Nuclear"]);
 
-		var energyVal = stateData["energy"];
+		var energyVal = stateData["equiv"];
 		var coalVal = Number(energyVal["Coal"]);
 		var ngasVal = Number(energyVal["Natural Gas"]);
 		var renVal = Number(energyVal["Renewable"]);
