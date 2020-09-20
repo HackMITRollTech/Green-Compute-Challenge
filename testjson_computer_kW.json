@@ -1,4 +1,4 @@
-var computerdata = '[{"Name":"Surface Book", "off": "0.49", "sleep":"2.03", "idle":"7.10", "active":"23.06","Power supply efficiency":"0.856"},{"Name": "Surface Go", "off": "0.38","sleep":"1.55","idle":"5.79","active":"18.60","Power supply efficiency":"0.878"},{"Name": "Surface Laptop", "off": "0.23","sleep":"1.16","idle":"5.05","active":"15.70","Power supply efficiency":"0.87"}, {"Name": "Macbook air", "off": "0.17","sleep":"0.73","idle":"4.0","active":"8.8","Power supply efficiency":"0.877"}]';
+var computerdata = '{"computers":{"Surface Book":{ "off": "0.49", "sleep":"2.03", "idle":"7.10", "active":"23.06","Power supply efficiency":"0.856"},"Surface Go":{ "off": "0.38","sleep":"1.55","idle":"5.79","active":"18.60","Power supply efficiency":"0.878"},"Surface Laptop":{ "off": "0.23","sleep":"1.16","idle":"5.05","active":"15.70","Power supply efficiency":"0.87"}, "Macbook air":{ "off": "0.17","sleep":"0.73","idle":"4.0","active":"8.8","Power supply efficiency":"0.877"}}}';
 var obj = JSON.parse(computerdata);
 
 {
