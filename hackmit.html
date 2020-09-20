@@ -108,6 +108,7 @@
                 position: relative;
                 animation-name: treeNumber;
                 animation-duration: 4s;
+                animation-fill-mode: forwards
             }
             @keyframes treeNumber {
                 0%   {background-color: rgb(105, 233, 190); left:400px; top:0px;}
@@ -118,6 +119,30 @@
             }
             #treeNum {
                 background-color: rgb(105, 233, 190);
+                padding: 0px;
+              color: rgb(0, 0, 0);
+              font-size: 135px;
+              border: none;
+            }
+
+            #miles {
+                width: 300px;
+                height: 200px;
+                background-color: rgb(116, 193, 238);
+                position: relative;
+                animation-name: mileNumber;
+                animation-duration: 4s;
+                animation-fill-mode: forwards
+            }
+            @keyframes mileNumber {
+                0%   {background-color: rgb(116, 193, 238); left:800px; top:0px;}
+                25%  {background-color:rgb(105, 233, 190); left:0px; top:200px;}
+                50%  {background-color:rgb(247, 192, 228); left:200px; top:200px;}
+                75%  {background-color:rgb(174, 124, 240); left:200px; top:0px;}
+                100% {background-color:rgb(116, 193, 238); left:800px; top:0px;}
+            }
+            #mileNum {
+                background-color: rgb(116, 193, 238);
                 padding: 0px;
               color: rgb(0, 0, 0);
               font-size: 135px;
@@ -216,6 +241,12 @@
             <center> 
                 <label id ="treeNum"><span id="dispTreeNum"></span></label>
             </center>
+        </div>
+        <br>
+        <div id = "miles" style = "display:none" >
+                <center> 
+                    <label id ="mileNum"><span id="dispMileNum"></span></label>
+                </center>
         </div>
 
       <!-- About Section -->
