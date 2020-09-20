@@ -132,12 +132,13 @@ document.getElementById('submitButton').onclick = function() {
     console.log(name, state, active, sleep, idle);
     var carbon = computeValues(name, off, sleep, idle, active, state);
     var carbonInt = Math.round(carbon);
-    var trees = Math.round(carbon*.0068);
+    var trees = Math.round(carbon*.0068*10);
     var miles = Math.round(carbon*1.1255);
     console.log(carbon);
     document.getElementById("carbonLbs").style = "block";
     document.getElementById("dispCarbonNum").innerHTML= carbonInt;
     document.getElementById("trees").style = "block";
     document.getElementById("dispTreeNum").innerHTML= trees;
-    dispTreeNum
+    document.getElementById("miles").style = "block";
+    document.getElementById("dispMileNum").innerHTML= miles;
 };
