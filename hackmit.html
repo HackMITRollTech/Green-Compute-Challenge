@@ -4,15 +4,15 @@
     <title>Ctrl+Alt+Delete CO2</title>
     <style>
             label {
-              background-color: rgb(0, 0, 0);
+              background-color: rgb(174, 124, 240);
               color: rgb(255, 255, 255);
               padding: 16px;
               font-size: 16px;
               border: none;
             }
             .dropbtn {
-              background-color: rgb(5, 5, 5);
-              color: white;
+              background-color: rgb(174, 124, 240);
+              color: rgb(174, 124, 240);
               padding: 16px;
               font-size: 16px;
               border: none;
@@ -33,7 +33,7 @@
             }
             
             .dropdown-content a {
-              color: black;
+              color: rgb(174, 124, 240);
               padding: 12px 16px;
               text-decoration: none;
               display: block;
@@ -67,7 +67,7 @@
                 width: 25px;
                 height: 25px;
                 border-radius: 50%; 
-                background: rgb(0, 0, 0);
+                background: rgb(105, 233, 190);
                 cursor: pointer;
             }
 
@@ -75,7 +75,7 @@
                 width: 25px;
                 height: 25px;
                 border-radius: 50%;
-                background: rgb(0, 0, 0);
+                background: rgb(105, 233, 190);
                 cursor: pointer;
             }
             #carbonLbs {
@@ -111,11 +111,11 @@
                 animation-fill-mode: forwards
             }
             @keyframes treeNumber {
-                0%   {background-color: rgb(105, 233, 190); left:400px; top:0px;}
+                0%   {background-color: rgb(105, 233, 190); left:450px; top:0px;}
                 25%  {background-color:rgb(247, 192, 228); left:800px; top:200px;}
                 50%  {background-color:rgb(174, 124, 240); left:0px; top:200px;}
                 75%  {background-color:rgb(116, 193, 238); left:800px; top:200px;}
-                100% {background-color:rgb(105, 233, 190); left:400px; top:0px;}
+                100% {background-color:rgb(105, 233, 190); left:450px; top:0px;}
             }
             #treeNum {
                 background-color: rgb(105, 233, 190);
@@ -135,11 +135,11 @@
                 animation-fill-mode: forwards
             }
             @keyframes mileNumber {
-                0%   {background-color: rgb(116, 193, 238); left:800px; top:0px;}
+                0%   {background-color: rgb(116, 193, 238); left:900px; top:0px;}
                 25%  {background-color:rgb(105, 233, 190); left:0px; top:200px;}
                 50%  {background-color:rgb(247, 192, 228); left:200px; top:200px;}
                 75%  {background-color:rgb(174, 124, 240); left:200px; top:0px;}
-                100% {background-color:rgb(116, 193, 238); left:800px; top:0px;}
+                100% {background-color:rgb(116, 193, 238); left:900px; top:0px;}
             }
             #mileNum {
                 background-color: rgb(116, 193, 238);
@@ -148,6 +148,59 @@
               font-size: 135px;
               border: none;
             }
+            #lbsLoc {
+                position: absolute;
+                top: 0px;
+                left: 400px;
+                font-size: 100px;
+                text-align: center;
+            }
+            #treesLoc {
+                position: absolute;
+                top: 400px;
+                left: 100px;
+                font-size: 100px;
+                text-align: center;
+            }
+            #milesLoc {
+                position: absolute;
+                top: 800px;
+                left: 400px;
+                font-size: 100px;
+                text-align: center;
+            }
+
+            #customers {
+                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            #customers td, #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+            #customers tr:hover {background-color: #ddd;}
+
+            #customers th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: rgb(216, 137, 240);
+                color: white;
+            }
+            #submitButton{
+                background-color: rgb(116, 193, 238);
+              color: rgb(255, 255, 255);
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+            }
+
+            
 
     </style>
     <meta charset="UTF-8">
@@ -163,15 +216,17 @@
         <div class="w3-right w3-hide-small">
           <a href="#home" class="w3-bar-item w3-button">Home</a>
           <a href="#calc" class="w3-bar-item w3-button">Calculator</a>
-          <a href="#personal" class="w3-bar-item w3-button">DYI Calculations</a>
           <a href="#info" class="w3-bar-item w3-button">Information</a>
+          <a href="#supercomputer" class="w3-bar-item w3-button">Supercomputer</a>
+          <a href="#customers" class="w3-bar-item w3-button">Leaderboard</a>
+          <a href="#personal" class="w3-bar-item w3-button">DIY Calculations</a>
         </div>
       </div>
     </div>
     
     <!-- Header -->
     <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-      <img class="w3-image" src="hack mit computer emissions.jpg"alt="CO2" width="1500" height="800">
+      <img class="w3-image" src="C:\Users\lcpap\OneDrive\Documents\hack mit\hack mit computer emissions.jpg"alt="CO2" width="1500" height="800">
       <div class="w3-display-middle w3-margin-top w3-center">
         <!--h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>ML</b></span> <span class="w3-hide-small w3-text-light-grey">Carbon</span></h1-->
       </div>
@@ -190,6 +245,7 @@
     
       <div class="w3-row-padding">
             <form id = "inputFields">
+            <center>
             <label for = "computerDropdown">Select Computer:</label>
             <div class="dropdown" id = "computerDropdown">
                     <select id="computerOptions"></select>
@@ -223,8 +279,12 @@
             <br>
             <input type="range" min="1" max="24" value="12" class="slider" id="idleHoursSlider">
             <br>
+            <br>
+            <br>
+            <br>
             
             <input type = "submit" id= "submitButton" value = "Submit">
+            </center>
             </form>
         </div>
     
@@ -235,22 +295,89 @@
         <div id = "carbonLbs" style = "display:none" >
             <center> 
                 <label id ="carbonNum"><span id="dispCarbonNum"></span></label>
+                <h3>Pounds of Carbon Per Year </h3>
             </center>
         </div>
         <br>
         <div id = "trees" style = "display:none" >
             <center> 
                 <label id ="treeNum"><span id="dispTreeNum"></span></label>
+                <h3>Trees Worth of CO2 </h3>
             </center>
         </div>
         <br>
         <div id = "miles" style = "display:none" >
                 <center> 
                     <label id ="mileNum"><span id="dispMileNum"></span></label>
+                    <h3>Miles You Could Drive </h3>
                 </center>
         </div>
+        <br>
+    <br>
+    <p id = "infoP" style= "display:none"> The annual carbon emissions of your computer are <span id="dispCarbonNum2"></span> pounds. If 9 of your friends have the same computer use patterns as you, together your annual emissions are equivalent to <span id="dispMileNum2"></span> miles driven. This could be offset by planting <span id="dispTreeNum2"></span> trees.
+            How would this footprint change if you moved to a different state? Turned your computer off overnight? Try it out with our sliders! And be sure to check out how your computer’s energy use compares to that of a supercomputer.
+            </p>
+    <br>
 
-		<div class="w3-container w3-padding-32" id="personal">
+    <div class = "w3-container w3-padding-32" id = "supercomputer">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Supercomputer Consumption (Each dot represents a tree)</h3>
+            <center>   
+            <a href="#"><img src="trees3.png" title="Satori"></img></a>
+            <p>The MIT Satori supercomputer, located at MIT is a supercomputer donated by IBM. Of all the supercomputers, it only uses 94 killawats/hour. We see that this value is extremely low compared to that of other supercomputers. This means that the energy output is also extremely low. As we can see in the picture, the Satori computer uses about 9 trees worth of CO2 per year. </p>
+            <a href="#"><img src="trees2.png" title="Electra"></img></a>
+            <p>The Electra, located in California, has a rating of 1,070 kW. It was ranked 46th in supercomputer system speed in June. Relative to the other supercomputers, we see that it is moderate in regards to its energy usage only consuming about 1500 trees per year.</p>
+            <a href="#"><img src="trees 1.png" title="Fugaku"></img></a>
+            <p>The Supercomputer Fugaku, found in Japan, was ranked as the fastest system in June 2020. It has a rating of 28,334.5 kW, which is almost three times the power usage of IBM’s Summit, the 2nd fastest system on the list. This leads to it using up about 2,764 trees worth of carbon dioxide, a huge amount!</p>
+            </center> 
+
+    </div>
+    
+    <div class = "w3-container w3-padding-32" id = "customers">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Leaderboard</h3>
+        <center>    
+        <table>
+                <thead>
+                    <th> Place </th>
+                    <th> Name</td>
+                    <th> Location </td>
+                    <th> Pounds of Carbon</td>
+                </thead>
+                    <tr>
+                    <td>1</td>
+                      <td>Lilly</th>
+                      <td> Massachusetts</th>
+                      <td>97</th>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Saumya</td>
+                      <td>Texas</td>
+                      <td>105</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                      <td>Linda</td>
+                      <td>Missouri</td>
+                      <td>121</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Naomi</td>
+                        <td>Illinois</td>
+                        <td>132</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Christina</td>
+                        <td>New Jersey</td>
+                        <td>147</td>
+                    </tr>
+                  </table>
+                </center>
+    </div>
+    <br>
+    <br>
+    <div class="w3-container w3-padding-32" id="personal">
             <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Computer Your Personal Power Consumption</h3>
 			<b>How much carbon is emitted from your personal setup?</b>
 			<br><b>Follow these easy steps to find out more:</b>
@@ -258,82 +385,16 @@
 			<br>2. Go to your linux terminal and cd to the location of the downloaded personalEnergy.py file.
 			<br>3. Run the command: python personalEnergy.py
 			<br>4. Your terminal should display the energy usage report. You can use this to gain further insights into your computer's specific energy usage and CO2 emissions.
-			
-        </div>
+    </div>
+    <br>
+    <br>
 
-      <!-- About Section -->
-      <!---div class="w3-container w3-padding-32" id="about">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-      </div-->
-    
-      <!---div class="w3-row-padding w3-grayscale">
-        <div class="w3-col l3 m6 w3-margin-bottom">
-          <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-          <h3>John Doe</h3>
-          <p class="w3-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-          <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-          <h3>Jane Doe</h3>
-          <p class="w3-opacity">Architect</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-          <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Architect</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-          <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
-          <h3>Dan Star</h3>
-          <p class="w3-opacity">Architect</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-        </div>
-      </div-->
-    
-      <!-- Contact Section -->
-      <!--div class="w3-container w3-padding-32" id="contact">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-        <p>Lets get in touch and talk about your next project.</p>
-        <form action="/action_page.php" target="_blank">
-          <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-          <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-          <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-          <button class="w3-button w3-black w3-section" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
-        </form>
-      </div-->
-      
-    <!-- Image of location/map -->
-    <!--div class="w3-container">
-      <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
-    </div-->
-    
-    <!-- End page content -->
-    <!--/div-->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-16">
-      <p>Powered by <a href="https://dayof.hackmit.org/" title="W3.CSS" target="_blank" class="w3-hover-text-green">Hack MIT</a></p>
-    </footer>
-    
+        <footer class="w3-center w3-black w3-padding-16">
+            <p>Powered by <a href="https://dayof.hackmit.org/" title="W3.CSS" target="_blank" class="w3-hover-text-green">Hack MIT</a></p>
+        </footer>
+    </body>
     </body>
     <script src="hackmitjs.js"></script>
 </html>
