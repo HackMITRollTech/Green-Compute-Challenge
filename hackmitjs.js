@@ -86,6 +86,20 @@ function computeValues(name, off, sleep, idle, active, state){
     // return true;
 }
 
+function buildTrees(number)
+{
+    // get the number of trees needed
+    //var img = document.createElement(green-tree-md.png);
+    var numb=number;
+    //console.log(comps);
+    for(item in numb)
+    {
+        var img = document.createElement('img'); 
+        img.src =  'green-tree-md.png'; 
+        document.getElementById('supercomputer').appendChild(img); 
+        down.innerHTML = "Image Element Added.";  
+    }  
+}
 var activeslider = document.getElementById("activeHoursSlider");
 var activeoutput = document.getElementById("numActiveHours");
 activeoutput.innerHTML = activeslider.value;
@@ -135,12 +149,18 @@ document.getElementById('submitButton').onclick = function() {
     var trees = Math.round(carbon*.0068*10);
     var miles = Math.round(carbon*1.1255);
     console.log(carbon);
-	window.location.href = "#info";
-	console.log(carbon);
+    window.location.href = "#info";
     document.getElementById("carbonLbs").style = "block";
     document.getElementById("dispCarbonNum").innerHTML= carbonInt;
     document.getElementById("trees").style = "block";
     document.getElementById("dispTreeNum").innerHTML= trees;
     document.getElementById("miles").style = "block";
     document.getElementById("dispMileNum").innerHTML= miles;
+    document.getElementById("infoP").style = "block";
+    document.getElementById("dispCarbonNum2").innerHTML= miles;
+    document.getElementById("dispTreeNum2").innerHTML= miles;
+    document.getElementById("dispMileNum2").innerHTML= miles;
 };
+
+
+
