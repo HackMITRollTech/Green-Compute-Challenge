@@ -140,7 +140,12 @@ document.getElementById('submitButton').onclick = function() {
     document.getElementById("dispCarbonNum").innerHTML= carbonInt;
     document.getElementById("trees").style = "block";
     document.getElementById("dispTreeNum").innerHTML= trees;
-<<<<<<< HEAD
+
+    document.getElementById("miles").style = "block";
+    document.getElementById("dispMileNum").innerHTML= miles;
+
+    buildTrees(number,image);
+
     dispTreeNum
 }
 
@@ -151,7 +156,7 @@ function buildTrees(number, image)
     var numb=number;
     //console.log(comps);
     for(item in numb):
-        <img class="w3-image" src="C:\Users\lindahuang\Desktop\Green-Compute-Challenge\green-tree-md.png"alt="tree" width="800" height="800">
+        <img class="w3-image" src=":./green-tree-md.png"alt="tree" width="800" height="800">
     
     
     
@@ -161,13 +166,3 @@ function buildTrees(number, image)
 
 
 
-
-
-
-
-
-=======
-    document.getElementById("miles").style = "block";
-    document.getElementById("dispMileNum").innerHTML= miles;
-};
->>>>>>> 9dba3852614b162b59aed35144810518c30a8cd8

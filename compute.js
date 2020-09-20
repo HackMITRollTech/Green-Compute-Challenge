@@ -25,16 +25,18 @@
 		var stateVal = stateData["states"][state];
 		var coalSt = Number(stateVal["Coal"]);
 		var ngasSt = Number(stateVal["Natural Gas"]);
+		var petSt = Numbber(stateVal["Petroleum"]);
 		var renSt = Number(stateVal["Renewable"]);
 		var nukeSt = Number(stateVal["Nuclear"]);
 
 		var energyVal = stateData["equiv"];
 		var coalVal = Number(energyVal["Coal"]);
 		var ngasVal = Number(energyVal["Natural Gas"]);
+		var petVal = Number(energyVal["Petroleum"]);
 		var renVal = Number(energyVal["Renewable"]);
 		var nukeVal = Number(energyVal["Nuclear"]);
 
-		var stateCarbonLbsPerKwH = coalSt*coalVal + ngasSt*ngasVal + renSt*renVal + nukeSt*nukeVal;
+		var stateCarbonLbsPerKwH = coalSt*coalVal + ngasSt*ngasVal + petSt*petVal + renSt*renVal + nukeSt*nukeVal;
 		
 		var carbonLbs = stateCarbonLbsPerKwH * kwattH;
 		return carbonLbs;
