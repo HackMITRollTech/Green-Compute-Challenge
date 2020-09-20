@@ -135,6 +135,8 @@ document.getElementById('submitButton').onclick = function() {
     var trees = Math.round(carbon*.0068*10);
     var miles = Math.round(carbon*1.1255);
     console.log(carbon);
+	window.location.href = "#info";
+	console.log(carbon);
     document.getElementById("carbonLbs").style = "block";
     document.getElementById("dispCarbonNum").innerHTML= carbonInt;
     document.getElementById("trees").style = "block";
