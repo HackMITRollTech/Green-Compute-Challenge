@@ -1,0 +1,40 @@
+function leaderboard() {
+var player1 = {name:"Thomas",carbonlbs:"201"};
+var player2 = {name:"Michael",corbonlbs:"943"};
+var player3 = {Name:"Lisa",carbonlbs:"79"};
+
+if(player1[1]>player2[1])&&(player1[1]>player3[1]) {
+    document.write(player1);
+    if(player2[2]>player3[1]) {
+        document.write(player2);
+        document.write(player3);
+    }
+    else {
+        document.write(player3);
+        document.write(player2);
+    }
+}
+else if(player2[1]>player1[1])&&(player2[1]>player3[1]) {
+    document.write(player2);
+    if(player1[1]>player3[1]) {
+        document.write(player1);
+        document.write(player3);
+    }
+    else {
+        document.write(player3);
+        document.write(player1);
+    }
+
+}
+else if(player3[1]>player2[1])&&(player3[1]>player1[1]) {
+    document.write(player3);
+    if(player1[1]>player2[1]) {
+        document.write(player1);
+        document.write(player2);
+    }
+    else {
+        document.write(player2);
+        document.write(player1);
+    {
+    }
+}
