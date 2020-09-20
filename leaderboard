@@ -5,7 +5,7 @@ var player3 = {Name:"Lisa",carbonlbs:"79"};
 
 if(player1[1]>player2[1])&&(player1[1]>player3[1]) {
     document.write(player1);
-    if(player2[2]>player3[1]) {
+    if(player2[1]>player3[1]) {
         document.write(player2);
         document.write(player3);
     }
