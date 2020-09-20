@@ -157,8 +157,8 @@ document.getElementById('submitButton').onclick = function() {
     document.getElementById("miles").style = "block";
     document.getElementById("dispMileNum").innerHTML= miles;
     document.getElementById("infoP").style = "block";
-    document.getElementById("dispCarbonNum2").innerHTML= miles;
-    document.getElementById("dispTreeNum2").innerHTML= miles;
+    document.getElementById("dispCarbonNum2").innerHTML= carbonInt;
+    document.getElementById("dispTreeNum2").innerHTML= trees;
     document.getElementById("dispMileNum2").innerHTML= miles;
 };
 
