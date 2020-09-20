@@ -1,7 +1,7 @@
 function leaderboard() {
-var player1 = {name:"Thomas",carbonlbs:"201"};
-var player2 = {name:"Michael",corbonlbs:"943"};
-var player3 = {Name:"Lisa",carbonlbs:"79"};
+var player1 = {name:"Saumya",carbonlbs:"201"};
+var player2 = {name:"Linda",corbonlbs:"943"};
+var player3 = {Name:"Lilly",carbonlbs:"79"};
 
 if(player1[1]>player2[1])&&(player1[1]>player3[1]) {
     document.write(player1);
